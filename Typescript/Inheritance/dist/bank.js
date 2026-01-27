@@ -25,6 +25,9 @@ class BankAccount {
     }
 }
 class SavingsAccount extends BankAccount {
+    getType() {
+        throw new Error("Method not implemented.");
+    }
     addInterest(rate) {
         const interest = this.balance * (rate / 100);
         this._updateBalance(interest);
