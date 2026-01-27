@@ -3,4 +3,5 @@ function echo<T extends number | string>(value: T): T {
 }
 
 
-echo<string>("hello").toUpperCase();
+console.log(echo<string>("hello").toUpperCase());
+
