@@ -2,9 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class Account {
     //properties
-    id;
+    id; //readonly property
     name;
     balance;
+    nickname;
     //constructor
     constructor(id, name, balance) {
         this.id = id;

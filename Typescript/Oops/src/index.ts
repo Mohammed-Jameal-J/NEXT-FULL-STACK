@@ -1,8 +1,9 @@
 class Account {
     //properties
-    id: number;
+    readonly id: number; //readonly property
     name: string;
     balance: number;
+    nickname?: string;
     //constructor
     constructor(id: number, name: string, balance: number) {
         this.id = id;
@@ -16,10 +17,12 @@ class Account {
 }
 
 //object creation
+
 const acc = new Account(1, "John Doe", 1000);
 const acc1 = new Account(2, "Jane Smith", 2000);
 
 //using deposit method
+
 acc.deposit(500);
 console.log(`Account Balance: ${acc.balance}`);
 acc1.deposit(1000);
