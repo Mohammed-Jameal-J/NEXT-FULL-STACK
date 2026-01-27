@@ -25,7 +25,7 @@ class SMSNotification {
     }
 }
 const emailNotif = new EmailNotification("user@example.com");
-const smsNotif = new SMSNotification("1234567890");
+const smsNotif = new SMSNotification("Number12345");
 emailNotif.send("Hello via Email!");
 smsNotif.send("Hello via SMS!");
 //# sourceMappingURL=notification.js.map
