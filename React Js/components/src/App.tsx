@@ -1,3 +1,5 @@
+import React from "react"
+
 function App() {
    const handleClick = () : void => {
       alert("Button Clicked")
