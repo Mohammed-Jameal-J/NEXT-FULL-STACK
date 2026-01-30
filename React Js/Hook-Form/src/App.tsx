@@ -1,4 +1,5 @@
 import { useForm , type SubmitHandler  } from "react-hook-form"
+import FormHandling from "./formHandling";
 
 type UserFormInputs = {
   name: string;
@@ -39,6 +40,7 @@ function App() {
         <p>Watched name: {watchName}</p>
         <button type="submit">Submit</button>
       </form>
+      <FormHandling />
     </>
   )
 }
