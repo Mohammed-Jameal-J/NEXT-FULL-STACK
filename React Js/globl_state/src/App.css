@@ -1,0 +1,20 @@
+.app .light{
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+.app .dark{
+    background-color: black;
+    color: #fff
+}
+
+.card{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    bottom: 1px solid #fff;
+}
+
+.button{
+    margin-top: 10px;
+    padding: 0.5em;
+}

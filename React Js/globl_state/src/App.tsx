@@ -1,6 +1,6 @@
 import Header from "./compoents/Header";
 import { createContext , useContext , useState } from "react";
-
+import "./App.css"
 
 type Theme={
   theme:"light"|"dark";
@@ -16,9 +16,9 @@ function App() {
   }
   return (
     <themeContext.Provider value={{theme,toggleTheme}}>
-    <>
+    <div className={`app ${theme}`}>
      <Header />
-    </>
+    </div>
     </themeContext.Provider>
   )
 }
